@@ -30,7 +30,6 @@ namespace KTPMTest
         
         public static string[] GetDataLoginSource()
         {
-            String s = "";
             string path = @"/home/minh-nguyen/RiderProjects/KTPM/KTPMTest/dataLoginTest.csv";
             if (File.Exists(path))
             {
